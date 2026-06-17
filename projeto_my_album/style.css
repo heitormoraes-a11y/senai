@@ -9,10 +9,19 @@ body {
 h1 {
     text-align: center;
     color: white;
+    margin: 20px 0px;
 }
-.fundo {
-    width: 550px;
-    height: 678px;
-    margin: auto;
+.album {
     background-image: url(assets/img-01.png);
+    width: 550px;
+    margin: 0 auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px 0px;
+    
+    
 }
