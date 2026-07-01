@@ -119,11 +119,37 @@ p {
     margin: initial;
 }
 .footer {
-    padding: 40px 120px;
     background-color: black;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.socials {
     display: flex;
     justify-content: space-between;
 }
 
-
-
+.socials a {
+    width: 32px;
+    height: 32px;
+}
+.instagram {
+    background-image: url(assets/faInstagram.png);
+    background-size: contain;
+    background-position: center;
+}
+.linkedin {
+    background-image: url(assets/faLinkedin.png);
+    background-size: contain;
+    background-position: center;
+}
+.facebook {
+    background-image: url(assets/faFacebookSquare.png);
+    background-size: contain;
+    background-position: center;
+}
+.youtube {
+    background-image: url(assets/faYoutube.png);
+    background-size: contain;
+    background-position: center;
+}
