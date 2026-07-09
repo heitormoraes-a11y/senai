@@ -6,4 +6,4 @@ let abc = "abc" * 2;
 console.log(typeof inteiro)
 console.log(typeof decimal)
 console.log(typeof negativo)
-console.log(typeof abc)
+console.log(typeof "abc")
