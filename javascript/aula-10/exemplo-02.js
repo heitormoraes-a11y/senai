@@ -16,6 +16,6 @@ function buscaBinaria(array, alvo) {
 }
 
 
-let numeros = ;
+let numeros = 
 console.log(buscaBinaria(numeros, 17)); 
 console.log(buscaBinaria(numeros, 10)); 
